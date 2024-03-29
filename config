@@ -1,0 +1,10 @@
+Host Test-Deb
+  HostName 10.200.0.200
+  User zhydan-ap
+  IdentityFile /home/solist/KP/iiva-ppk/id_rsa
+
+Host 202
+  HostName 10.200.0.202
+  User zh
+
+

@@ -1,0 +1,4 @@
+- hosts: "{{wp_2507}}"
+  become: yes
+  roles:
+    - ssh_key
