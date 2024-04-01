@@ -1,4 +1,4 @@
-- hosts: "{{wp_2507}}"
+- hosts: wpnginx
   become: yes
   roles:
     - ping

@@ -9,3 +9,6 @@ wp_2507 # local-host /home/zh/.ssh/config ->
 
 [wpnginx]
 "{{wp_2507}}"
+
+[strongswan]
+10.200.0.25
