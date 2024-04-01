@@ -8,7 +8,7 @@ wp_2507 # local-host /home/zh/.ssh/config ->
 #  IdentityFile /home/zh/.ssh/id_rsa
 
 [wpnginx]
-"{{wp_2507}}"
+"{{ ssh_host }}"
 
 [strongswan]
 10.200.0.25
