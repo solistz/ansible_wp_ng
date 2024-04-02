@@ -1,0 +1,7 @@
+---
+# tasks file for nginx
+# Install Nginx
+- name: Install Nginx
+  apt: name={{ item }} update_cache=yes state=latest
+  loop: [ 'nginx' ]
+  

@@ -2,5 +2,7 @@
   # remote_user: "{{ ssh_user }}"
   become: yes
   roles:
-    - inst
+    - upd
+    - nginx
+    - php-fpm
 

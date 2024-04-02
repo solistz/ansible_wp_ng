@@ -1,0 +1,27 @@
+---
+# tasks file for php-fpm
+# Install PHP
+- name: Install LAMP Packages
+  apt: name={{ item }} update_cache=yes state=latest
+  loop: ['php',
+         'php-fpm',
+         'php-cli',
+         'php-curl',
+         'php-dev',
+         'php-soap',
+         'php-mysqlnd',
+         'php-mysql',
+         'php-opcache',
+         'php-xml',
+         'php-xmlrpc',
+         'php-xml-util',
+         'php-intl',
+         'php-cgi',
+         'php-common',
+         'php-pear',
+         'php-mbstring',
+         'php-zip',
+         'php-net-socket',
+         'php-gd',
+         'php-mysql',
+         'php-bcmath']
