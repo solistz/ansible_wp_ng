@@ -20,6 +20,8 @@
       name: root
       host: "{{ item }}"
       password: "{{ mysql_root_password.stdout }}"
+      login_user: root
+      login_unix_socket: /var/run/mysqld/mysqld.sock
   with_items:
     - "{{ ansible_hostname }}"
     - 127.0.0.1
