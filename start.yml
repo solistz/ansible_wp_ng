@@ -2,8 +2,8 @@
   # remote_user: "{{ ssh_user }}"
   become: yes
   roles:
-    # - upd
-    # - nginx
-    # - php-fpm
-    - mariadb
+     - upd
+     - nginx
+     - php-fpm
+     - mariadb
 
