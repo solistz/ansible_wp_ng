@@ -4,4 +4,16 @@
 - name: Install Nginx
   apt: name={{ item }} update_cache=yes state=latest
   loop: [ 'nginx' ]
+
+- name: remove apache2 from ubuntu servers
+  apt:
+    name: apache2
+    state: absent
+
+# - name: Delete default enabled
+#   file: path=/etc/nginx/sites-enabled/default state=absent
+#   notify: reload nginx
+# - name: Delete default available
+#   file: path=/etc/nginx/sites-available/default state=absent
+#   notify: reload nginx
   

@@ -25,3 +25,5 @@
          'php-gd',
          'php-mysql',
          'php-bcmath']
+
+- import_tasks: php-ini.yml

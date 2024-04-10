@@ -1,0 +1,3 @@
+---
+# tasks file for wordpress
+- import_tasks: nginx-wp.yml
